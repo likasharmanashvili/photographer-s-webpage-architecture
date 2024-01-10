@@ -1,0 +1,56 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{font-family: Open Sans;}
+.header{display: flex;align-items: center;justify-content: center;gap: 1000px;
+    position: fixed;z-index: 100;background-color: white;height: 140px;width: 100%;margin-top: -100px;}
+.content{display: flex;align-items: center;justify-content: center;flex-direction: column;margin-top: 100px;}
+.card1{margin-left: -680px;}
+.card1 >img{width: 700px;}
+.card2{margin-left: 800px;}
+.card2 >img{width: 600px;}
+.card2{margin-top: -200px;}
+.card3{margin-top: 100px}
+.card3{margin-left: -650px;margin-top: -200px;}
+.card4 >img{width: 600px;}
+.card1>img:hover{margin-top: 10px;}
+.card2>img:hover{margin-top: 10px;}
+.card3>img:hover{margin-top: 10px;}
+.card4>img:hover{margin-top: 10px;}
+.card4{margin-left: 800px;margin-top: -280px;}
+.footer{margin-top: 100px;display: flex;align-items: center;justify-content: center;gap: 200px;height: 200px;}
+.footer >h1:hover{color: grey;}
+
+.footer >h3:hover{color: grey;}
+@media(width >375px){
+    .header{gap: 200px;}
+    .card1{margin-left: 350px;}
+    .card2{margin-right: 400px;}
+.card2{margin-top: 100px;}
+.card3{margin-left: 300px;}
+.card3 >img{width: 650px;}
+.card3{margin-top: 100px;}
+.card4{margin-top: 100px;margin-right: 400px;}
+.footer{width: 100%;gap: 100px;}
+.footer>h1{margin-left: 230px;}
+.footer >p{display: none;}
+
+}
+@media(width>1400px){.content{display: flex;align-items: center;justify-content: center;flex-direction: column;margin-top: 100px;}
+.card1{margin-left: -680px;}
+.card1 >img{width: 700px;}
+.card2{margin-left: 1200px;}
+.card2 >img{width: 600px;}
+.card2{margin-top: -200px;}
+.card3{margin-top: 100px}
+.card3{margin-left: -650px;margin-top: -200px;}
+.card4 >img{width: 600px;}
+.card1>img:hover{margin-top: 10px;}
+.card2>img:hover{margin-top: 10px;}
+.card3>img:hover{margin-top: 10px;}
+.card4>img:hover{margin-top: 10px;}
+.card4{margin-left: 1200px;margin-top: -280px;}
+.footer{margin-top: 100px;display: flex;align-items: center;justify-content: center;gap: 700px;height: 200px;}
+.footer >h1:hover{color: grey;}
+.footer >h3:hover{color: grey;}
+.footer >h1{margin-left: -100px;display: flex;}
+
+}
